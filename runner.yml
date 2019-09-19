@@ -2,5 +2,3 @@ version: 1
 services:
   domainmon:
     runner: python3 -u /home/cargo/apps/domainmon.py
-  kopet:
-    runner: python3 -u /home/cargo/apps/domainmon.py
