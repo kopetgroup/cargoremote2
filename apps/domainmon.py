@@ -1,4 +1,5 @@
 import time
+import os
 while True:
-    print('iki domainmon')
-    time.sleep(2)
+    os.system('curl -I google.com')
+    time.sleep(5)
