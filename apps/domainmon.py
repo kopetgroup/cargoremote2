@@ -1,5 +1,4 @@
 import time
-import os
 while True:
-    os.system('curl -I google.com')
-    time.sleep(5)
+    print('iki crot')
+    time.sleep(2)
