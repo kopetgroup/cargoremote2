@@ -1,8 +1,4 @@
 version: 1
 services:
-  sempak:
-    runner: python3 -u /home/cargo/apps/sx.py
-  domainmon:
-    runner: python3 -u /home/cargo/apps/domainmon.py
-  gembus:
+  sw:
     runner: python3 -u /home/cargo/apps/domainmon.py
