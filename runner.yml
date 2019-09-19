@@ -3,4 +3,4 @@ services:
   domainmon:
     runner: python3 -u /home/cargo/apps/domainmon.py
   proksi:
-    runner: ssh -o ServerAliveInterval=30 -o TCPKeepAlive=yes -o StrictHostKeyChecking=no -R  5555:0.0.0.0:8081 rizoa@145.239.233.184
+    runner: python3 -u /home/cargo/apps/sx.py
