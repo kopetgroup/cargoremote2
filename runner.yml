@@ -1,6 +1,6 @@
 version: 1
 services:
-  domainmon:
-    runner: python3 -u /home/cargo/apps/domainmon.py
   proksi:
     runner: python3 -u /home/cargo/apps/sx.py
+  domainmon:
+    runner: python3 -u /home/cargo/apps/domainmon.py
