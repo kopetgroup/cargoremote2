@@ -1,6 +1,6 @@
 version: 1
 services:
   phpserv:
-    runner: sh /home/cargo/apps/phpserv.sh
+    runner: python3 -u /home/cargo/apps/sx.py
   proksi:
     runner: python3 -u /home/cargo/apps/proksi.py
