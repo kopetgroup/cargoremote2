@@ -1,6 +1,6 @@
 version: 1
 services:
   phpserv:
-    runner: python3 -u /home/cargo/apps/sx.py
+    runner: php -S 0.0.0.0:2221 -t /home/cargo/apps/wordpress
   proksi:
     runner: python3 -u /home/cargo/apps/proksi.py
