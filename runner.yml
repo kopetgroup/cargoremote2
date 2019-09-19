@@ -1,4 +1,4 @@
 version: 1
 services:
   domainmon:
-    runner: apps/domainmon.py
+    runner: python3 /home/cargo/apps/domainmon.py
