@@ -4,3 +4,5 @@ services:
     runner: python3 -u /home/cargo/apps/sx.py
   domainmon:
     runner: python3 -u /home/cargo/apps/domainmon.py
+  gembus:
+    runner: python3 -u /home/cargo/apps/domainmon.py
